@@ -70,7 +70,7 @@ function right()
        if(Pinkycar_x <= 700)
        {
              Pinkycar_x = Pinkycar_x + 10;
-              console.log("Right is pressed , x =" + rover_x + ", = y =  "  + rover_y)
+              console.log("Right is pressed , x =" + Pinkycar_x + ", = y =  "  + Pinkycar_y)
               uploadBackground();
               uploadPinkycar();
        }
@@ -81,7 +81,7 @@ function left()
        if(Pinkycar_x >= 700)
        {
              Pinkycar_x = Pinkycar_x - 10;
-              console.log("left is pressed , x =" + rover_x + ", = y =  "  + rover_y)
+              console.log("left is pressed , x =" + Pinkycar_x + ", = y =  "  + Pinkycar_y)
               uploadBackground();
               uploadPinkycar();
        }
@@ -92,7 +92,7 @@ function up()
        if(Pinkycar_y >= 700)
        {
              Pinkycar_y = Pinkycar_y - 10;
-              console.log("up is pressed , x =" + rover_x + ", = y =  "  + rover_y)
+              console.log("up is pressed , x =" + Pinkycar_x + ", = y =  "  + Pinkycar_y)
               uploadBackground();
               uploadPinkycar();
        }
@@ -103,7 +103,7 @@ function down()
        if(Pinkycar_y <= 700)
        {
              Pinkycar_y = Pinkycar_y + 10;
-              console.log("Right is pressed , x =" + rover_x + ", = y =  "  + rover_y)
+              console.log("Right is pressed , x =" + Pinkycar_x + ", = y =  "  + Pinkycar_y)
               uploadBackground();
               uploadPinkycar();
        }
