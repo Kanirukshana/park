@@ -5,7 +5,7 @@ Pinkycar_width = 75;
 Pinkycar_height = 100;
 
 background_image = "parkingLot.jpg";
-Pinkycar_image = "car2.png";
+Pinkycar_image = "Pinkycar.png";
 
 Pinkycar_x = 5;
 Pinkycar_y = 225;
